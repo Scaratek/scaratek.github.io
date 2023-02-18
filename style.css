@@ -7,7 +7,6 @@ body {
 
 h1 {
     margin: 0;
-    font-size: 36px;
     color: #b39ddb;
     display: flex;
     justify-content: space-between;
@@ -41,19 +40,17 @@ main {
 }
 
 h2 {
-    font-size: 24px;
     margin-bottom: 20px;
     color: #b39ddb;
 }
 
 h3 {
-    font-size: 24px;
     margin-bottom: 20px;
     color: #b39ddb;
 }
 
 li a {
-    color: #d3b9f5;
+    color: #de93fc;
     text-decoration: none;
 }
 
