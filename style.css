@@ -80,3 +80,7 @@ footer p {
 .social-links a:hover {
     color: #ccc;
 }
+
+footer {
+    text-align: left;
+}
