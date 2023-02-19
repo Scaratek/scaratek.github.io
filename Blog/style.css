@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: hotpink;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background-color: hotpink;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+a {
+    color: white;
+}
