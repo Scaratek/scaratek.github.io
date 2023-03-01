@@ -18,9 +18,9 @@ body {
 /* header styles */
 
 header {
-    background-color: #f7a9f7;
-    color: rgb(224, 143, 220);
-    padding: 1rem;
+    background-color: rgb(118, 85, 91);
+    color: rgb(118, 85, 91);
+    padding: 0.5rem;
     text-align: left;
 }
 
@@ -52,7 +52,7 @@ main {
 
 h1,
 h2 {
-    color: rgb(218, 146, 202);
+    color: rgb(164, 118, 152);
 }
 
 section {
@@ -80,9 +80,9 @@ a:hover {
 /* footer styles */
 
 footer {
-    background-color: #f7a9f7;
+    background-color: rgb(118, 85, 91);
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     position: absolute;
     bottom: 0;
     width: 100%;
