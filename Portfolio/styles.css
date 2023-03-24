@@ -1,5 +1,3 @@
-/* reset styles */
-
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +11,6 @@ body {
     position: relative;
     min-height: 100vh;
 }
-
-
-/* header styles */
 
 header {
     background-color: rgb(118, 85, 91);
@@ -32,22 +27,13 @@ nav ul {
 
 nav a {
     color: white;
-    text-decoration: none;
 }
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-
-/* main styles */
 
 main {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 120px);
-    /* subtract height of header and footer */
 }
 
 h1,
@@ -69,15 +55,7 @@ li:not(:last-child) {
 
 a {
     color: #ffffff;
-    text-decoration: none;
 }
-
-a:hover {
-    text-decoration: underline;
-}
-
-
-/* footer styles */
 
 footer {
     background-color: rgb(118, 85, 91);
@@ -93,9 +71,6 @@ footer ul {
     display: flex;
     justify-content: center;
 }
-
-
-/* additional styles */
 
 header h1 {
     margin-left: 1rem;
