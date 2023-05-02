@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Scarlett's Website</title>
+    <title>Violet's Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta property="og:title" content="Hiii :D">
-  <meta property="og:description" content="Hiiiiii :D">
+    <meta property="og:title" content="Website">
+  <meta property="og:description" content="Cool Website Should Look At">
   <meta property="og:url" content="https://scarat3k.me">
   <meta property="og:type" content="website">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" defer></script>
 </head>
 <body>
     <script>
         function konami(callback) {
     let kkeys = [];
-    // up,up,down,down,left,right,left,right,B,A
+    // up, up, down, down, left, right, left, right, B, A
     const konami = '38,38,40,40,37,39,37,39,66,65';
     return event => {
         kkeys.push(event.keyCode);
@@ -27,27 +27,27 @@
     };
 }
 const handler = konami(() => {
-    console.log('Konami Code :D');
+    console.log('funny debug message heheheheheheahhahaahahahhaa');
 });
 window.addEventListener('keydown', handler);
 window.addEventListener('keydown', konami(event => {
     alert('This is meant for my Wife(Girlfriend) not you >:(')
     window.location.replace(window.location.href+"Koaku");
 }));
+
     </script>
     <div class="container">
         <div class="profile">
-            <img src="/pfp.gif" alt="My Profile Picture">
-            <h1>Scarlett Yuko</h1>
-            <p>Hi I'm Scarlett and I'm a Web Developer and a member of Mercury Workshop</p>
-            <p>I am a active contributor in the Titanium Network Discord server</p>
+            <img src="/pfp.gif" alt="">
+            <h1>Violet Yuko</h1>
+            <p>Hi I'm Violet and I'm a Web Developer and a member of Mercury Workshop</p>
+            <p>I am a active contributor in the Titanium Network community.</p>
             <p>I'm also the owner of FlightOS</p>
             <p>13 | She/They | 🏳️‍⚧️ | 7th Grade</p>
             <p><i>Married To Koaku Yuko <3</i></p>
             <div class="links">
                 <a href="/Portfolio/">Portfolio</a>
-                <a href="/Socials/">[WIP] Socials</a>
-                <a href="/Blog/">[WIP] Blog</a>
+                <a href="https://github.com/scaratek">Github</a>
             </div>
         </div>
     </div>
