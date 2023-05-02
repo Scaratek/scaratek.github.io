@@ -6,7 +6,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    /* Add this rule */
 }
 
 .container {
@@ -17,7 +16,6 @@ body {
     color: white;
     position: relative;
     border-radius: 10px;
-    /* Add this rule */
 }
 
 .profile {
@@ -83,8 +81,4 @@ footer p {
 
 footer {
     text-align: left;
-}
-
-a {
-    color: white;
 }
