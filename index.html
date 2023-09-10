@@ -25,5 +25,21 @@
             </div>
         </div>
     </div>
+    <script>
+        var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+var current = 0;
+var keyHandler = function (event) {
+	if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
+		current = 0;
+		return;
+	}    
+	current++;
+	if (pattern.length === current) {
+		current = 0;
+		window.location.replace("https://youtu.be/fYBQJfPBmRg?list=RDMMF9Ay74LfKd4");
+	}
+};
+document.addEventListener('keydown', keyHandler, false);
+    </script>
 </body>
 </html>
