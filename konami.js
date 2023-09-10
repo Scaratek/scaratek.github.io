@@ -12,7 +12,7 @@ var keyHandler = function (event) {
 
     if (pattern.length === current) {
         current = 0;
-        window.location.replace(window.location.host+"pmmm/index.html");
+         window.location.replace(window.location.href+"pmmm");
     }
 };
 
