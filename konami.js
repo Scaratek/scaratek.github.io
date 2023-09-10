@@ -12,8 +12,7 @@ var keyHandler = function (event) {
 
     if (pattern.length === current) {
         current = 0;
-        // Based Song
-        window.location.replace("https://youtu.be/fYBQJfPBmRg?list=RDMMF9Ay74LfKd4");
+        window.location.replace(window.location.host+"pmmm/index.html");
     }
 };
 
